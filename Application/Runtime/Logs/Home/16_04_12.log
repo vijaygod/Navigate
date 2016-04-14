@@ -1,0 +1,29 @@
+[ 2016-04-12T19:17:13+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2016-04-12T19:18:55+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007999s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011269s ]
+
